@@ -431,18 +431,26 @@ nav{
     /* border: 1px solid black; */
     height: 100vh;
     margin: 5% 5%;
+    
 }
 #cont1{
-    width: 25%;
+    width: 30%;
     /* border: 1px solid brown; */
+    /* margin: 1%; */
+    height: 100vh;
+    overflow-y: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 #cont2{
-    width: 75%;
+    width: 70%;
+    margin: 1%;
     /* border: 1px solid tomato; */
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 200px 200px 200px 200px 200px;
     gap: 20px 10px;
+    padding: 0px 50px;
     height: 100vh;
     overflow-y: auto;
 }
@@ -595,4 +603,198 @@ nav{
     display: flex;
     justify-content: center;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-right: 14%;
+    font-size: 18px;
+}
+input.id_check{
+    width: 20px;
+    height: 20px;
+}
+#center6{
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#center6 > h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10%;
+}
+#center6 > p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 18px;
+}
+#cen_six_cont1{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+#cen_six_cont1 > div{
+    padding: 0px 70px;
+    
+}
+#cen_six_cont1 > div > p{
+    font-size: 18px;
+    
+}
+#cen_six_cont1 > div > img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#cen_six_cont1 > div > h2{
+    text-align: center;
+    font-weight: 500;
+}
+#cen_six_cont1 > div > p{
+    text-align: center;
+}
+#cen_seven_cont1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+#center7{
+    margin-top: 5%;
+}
+#center7 > h1{
+    text-align: center;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#cen_seven_cont1 > div > p{
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#cen_seven_cont2 > button{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border: 0.1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+#center8{
+    height: 140vh;
+    background-color: rgb(255, 251, 245);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#center8 > h1{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 0% 25%;
+    font-weight: 500;
+    padding-top: 10%;
+}
+#cen_eight_cont1{
+    padding-top: 5%;
+    display: flex;
+    /* padding: 0px 20%; */
+    justify-content: space-evenly;
+   
+    font-size: 18px;
+}
+#cen_eight_cont1 > div{
+    padding: 0% 10%;
+}
+
+#cen_eight_cont1 > div > img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#cen_eight_cont1 > div > p{
+    text-align: center;
+}
+#cen_eight_cont1 > div > h2{
+    font-weight: 500;
+    text-align: center;
+}
+#cen_eight_cont1 > div > button{
+   display: block;
+   margin: auto;
+   font-size: 18px;
+   padding: 10px 30px;
+   background-color: rgb(251, 248, 244);
+   border: 0.1px solid black;
+   margin-top: 10%;
+   font-weight: 200;
+   border-radius: 5px;
+}
+
+#center9{
+    margin-top:20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#center9 > h1{
+    text-align: center;
+    font-weight: 500;
+}
+#center9 > p{
+    text-align: center;
+    font-size: 18px;
+    margin: 4%;
+}
+
+#cen_nine_cont1{
+    display: flex;
+    justify-content: space-around;
+
+}
+#cen_nine_cont1 > div > img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#cen_nine_cont1 > div > h2{
+    font-weight: 500;
+    text-align: center;
+}
+#cen_nine_cont1 > div > p{
+    /* font-weight: 500; */
+    padding: 0px 10%;
+    text-align: center;
+}
+#center10{
+    text-align: center;
+    margin: 0% 18%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10%;
+    
+}
+#cen_ele_cont1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#cen_ele_cont1 > div:nth-child(2){
+    /* margin-left: 10%; */
+    text-decoration: none;
+}
+#cen_ele_cont1 > div:nth-child(2) > a{
+    text-decoration: none;
+}
+#cen_ele_cont1 > div:nth-child(1){
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#cen_ele_cont1 > div:nth-child(1) > {
+
+}
+
+
 
