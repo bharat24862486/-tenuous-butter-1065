@@ -66,7 +66,7 @@
         <img src="images/20221213_201545.png" alt="">
     </div>
     <div class="form">
-        <p>Don’t have an account? Sign up</p>
+        <p>Don’t have an account?<a href="sing-up.html">Sign up</a></p>
         <h1>Change password</h1>
         <form action="" id="Form">
             <p>Choose Password</p>
@@ -92,8 +92,8 @@
             }
             alert('Password has succesfully changed')
             localStorage.setItem('pass', JSON.stringify(obj))
-            // let url = "loginSuccess.html"
-            // document.location.href = url
+            let url = "log-in2.html"
+            document.location.href = url
         } else{
             alert('Password are not matching')
         }

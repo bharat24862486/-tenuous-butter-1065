@@ -12,6 +12,9 @@ nav > img{
 #home{
     cursor: pointer;
 }
+.signups{
+    cursor: pointer;
+}
 nav{
     display: flex;
     /* position: fixed;

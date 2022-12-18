@@ -7,7 +7,7 @@ text1.addEventListener('click',()=>{
 
 let home = document.getElementById('home')
 home.addEventListener('click',()=>{
-    let newUrl = "surveymain.html"
+    let newUrl = "index.html"
     document.location.href = newUrl
 })
 
