@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sing-up</title>
-    
+    <title>Sign Up</title>
 </head>
 <style>
     .one > img{
@@ -15,7 +14,7 @@
         /* border: 1px solid black; */
         margin: 5% 30%;
         padding: 2% 5%;
-        height: 500px;
+        height: 400px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -66,33 +65,35 @@
     </div>
     <div class="form">
         <p>Already have an account? <a href="log-in.html">Log in</a></p>
-        <h1>Create an account</h1>
+        <h1>Set Password</h1>
         <form action="" id="Form">
-            <p>Name</p>
-            <input type="text" name="name" id="name">
-            <p>Email address</p>
-            <input type="email" name="email" id="email"> <br>
-            <br><div class="cont"><div><input type="checkbox" name="check1" class="check1"></div><label for="check1">You agree to the Terms of Use and Privacy Notice.</label></div> <br>
-            <div class="cont"><input type="checkbox" name="check1" class="check1"><label for="check1">You agree to receive product news and special promotions via email. You can opt-out of these emails in your My Account page anytime.</label></div>
-            <input type="submit" value="Next" id="submit">
+            <p>Choose Password</p>
+            <input type="password" name="pass" id="password" placeholder="Set your password"> <br>
+            <p>Confirm Password</p>
+            <input type="password" name="pass" id="pass1" placeholder="Set your password"> <br>
+            <input type="submit" value="Create Account" id="submit">
         </form>
         
     </div>
+    
 </body>
+
 <script>
-    let email = document.getElementById('email')
     let form = document.getElementById('Form')
 
     form.addEventListener('submit',(h)=>{
         h.preventDefault()
-        let obj = {
-            emails: email.value ,
-            name: form.name.value
+        // console.log(form.password.value , form.pass1.value)
+        if(form.password.value == form.pass1.value){
+            let obj = {
+                pass: form.password.value
+            }
+            localStorage.setItem('pass', JSON.stringify(obj))
+            let url = "loginSuccess.html"
+            document.location.href = url
+        } else{
+            alert('Password are not matching')
         }
-        localStorage.setItem('email' , JSON.stringify(obj))
-        let url = "signup2.html"
-        document.location.href = url
     })
 </script>
-
 </html>
