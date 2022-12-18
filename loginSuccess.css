@@ -45,14 +45,15 @@ nav{
 #navCont2{
     display: flex;
     justify-content: space-between;
-    width: 15%;
+    width: 20%;
+    /* border: 1px solid black; */
     font-size: 17px;
 
 }#navCont2 p:nth-child(2){
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding: 8px 10px;
-    background-color: #FBBF24;
-    /* border-radius: 10px; */
+    /* background-color: #FBBF24; */
+    border-radius: 10px;
 }#navCont2 p:nth-child(1){
     /* border: 1px solid black; */
    
@@ -421,7 +422,7 @@ nav{
 }
 #center3{
     /* border: 1px solid black; */
-    height: 400px;
+    height: 450px;
     color: white;
     background-color: #303F9F;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -473,7 +474,7 @@ nav{
     width: 30%;
     /* border: 1px solid brown; */
     /* margin: 1%; */
-    /* height: 100vh; */
+    height: 100vh;
     overflow-y: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -487,7 +488,7 @@ nav{
     grid-template-rows: 200px 200px 200px 200px 200px;
     gap: 20px 10px;
     padding: 0px 50px;
-    height: 600px;
+    height: 100vh;
     overflow-y: auto;
 }
 .c101{
@@ -622,7 +623,7 @@ nav{
 
 }
 #cont1{
-    height: 600px;
+    height: 95vh;
     overflow-y: auto;
 }
 #cont1 > h2{

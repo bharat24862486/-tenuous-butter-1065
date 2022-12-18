@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav > img{
+    width: 15%;
+    /* border: 1px solid black; */
+    /* height:80px; */
+    color: #FBBF24;
+    padding: 0%;
+}
+#home{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    /* position: fixed;
+    background-color: white; */
+    margin-top: 0px;
+    padding-top: 0px;
+
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 475;
+
+}
+#navCont1{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 33%;
+    font-size: 18px;
+    font-weight: 450;
+}
+#navCont2{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    font-size: 17px;
+
+}#navCont2 p:nth-child(2){
+    /* border: 1px solid black; */
+    padding: 8px 10px;
+    background-color: #FBBF24;
+    /* border-radius: 10px; */
+}#navCont2 p:nth-child(1){
+    /* border: 1px solid black; */
+   
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+#banner{
+    /* background-image: url('images/pexels-miguel-á-padriñán-1111318.jpg'); */
+    margin-top: 0px;
+    /* padding-top: 0px; */
+    /* background-color: #FBBF24; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+}
+#banner > h1{
+    font-size: 55px;
+    padding-top: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#banner > p{
+    margin-top: 0px ;
+    padding-top: 0px;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+#banner > input{
+    width: 25%;
+    font-size: 20px;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+#banner > button{
+    width: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    height: 5vh;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+#cen1{
+    display: flex;
+   
+    
+
+}
+
+#onecont1{
+    border-right: 2px solid black;
+    width: 30%;
+    padding-left: 5%;
+    font-size: 18px;
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#onecont1 > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+/* #onecont1 > p > a:nth-child(1){
+    font-weight: 450;
+} */
+#onecont2{
+    /* border: 1px solid tomato; */
+    width: 100%;
+    padding: 1% 5%;
+}
+#bold{
+    font-weight: 550;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.div2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px;
+    /* border: 1px solid cyan; */
+    gap: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div2 > div{
+    /* border: 1px solid brown; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.images{
+    width: 22%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+.div2 > div p:nth-child(3){
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+}
+.div2 > div p:nth-child(2){
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px 150px;
+    /* border: 1px solid cyan; */
+    gap: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div3 > div{
+    /* border: 1px solid brown; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.images1{
+    width: 22%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+.div3 > div p:nth-child(3){
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+}
+.div3 > div p:nth-child(2){
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+}
+
+
+#center11{
+    border: 1px solid rgb(231, 231, 231);
+    margin-top: 10%;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+.fcont1{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.fcont1  a{
+    text-decoration: none;
+    color: black;
+}
+.fcont2{
+    text-align: center;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2px 25%;
+    margin-bottom: 5%;
+}

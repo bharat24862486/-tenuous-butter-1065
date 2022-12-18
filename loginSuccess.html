@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crowd Survey</title>
 </head>
-<link rel="stylesheet" href="surveymain.css">
+<link rel="stylesheet" href="loginSuccess.css">
 <body>
     <nav>
         <img src="images/20221213_201545.png" alt="" id="home">
@@ -17,8 +17,8 @@
             <p><a href="">Plan & Pricing</a></p>
         </div>
         <div id="navCont2">
-            <p id="login">Log in</p>
-            <p id="signup" class="signups">Sing up free</p>
+            <p id="namePlace">Log in</p>
+            <p id="logout" class="signups">Log out</p>
         </div>
     </nav>
     <div id="banner">
@@ -26,7 +26,7 @@
             <h1>Create free surveys and forms online in minutes</h1>
             <p>Ask, listen, and act on insights fast with a global leader in surveys and forms software.</p>
             <div class="bn3">
-                <button class="signups" id="SecondSignup">Sing up free</button>
+                <!-- <button class="signups" id="SecondSignup">Sing up free</button> -->
                 <button>Explore Plans</button>
             </div>
 
@@ -70,7 +70,7 @@
             </div>
 
             <div>
-                <div class="text3" id="text3">
+                <div class="text3">
                     <p>RACIAL EQUITY</p>
                     <P>Get resources for addressing diversity, equity and inclusion.</P>
                 </div>
@@ -296,5 +296,44 @@
     
 </body>
 
-<script src="surveymain.js"></script>
+<!-- <script src="surveymain.js"></script> -->
+<script>
+    let text1 = document.getElementById('text1')
+
+text1.addEventListener('click',()=>{
+    let newUrl = "surveymain2.html"
+    document.location.href = newUrl
+})
+
+let home = document.getElementById('home')
+home.addEventListener('click',()=>{
+    let newUrl = "loginSuccess.html"
+    document.location.href = newUrl
+})
+
+// let singUp = document.getElementById('signup')
+// singUp.addEventListener('click',()=>{
+//     let signPage = "sing-up.html"
+//     document.location.href = signPage
+// })
+
+// let claSign = document.getElementById('SecondSignup')
+// claSign.addEventListener('click',()=>{
+//     let signPage = "sing-up.html"
+//     document.location.href = signPage
+// })
+
+let catchName = JSON.parse(localStorage.getItem('email') )
+
+let nameChange = document.getElementById('namePlace')
+
+nameChange.innerText = catchName.name
+
+let logouts= document.getElementById('logout')
+logouts.addEventListener('click',()=>{
+    let url = "surveymain.html"
+    document.location.href = url
+})
+</script>
+
 </html>
