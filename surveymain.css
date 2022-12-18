@@ -12,6 +12,7 @@ nav > img{
 nav{
     display: flex;
     position:fixed;
+    width: 100%;
     justify-content: space-around;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -24,6 +25,7 @@ nav{
 }
 #home{
     cursor: pointer;
+    /* width: 10%; */
 }
 .signups{
     cursor: pointer;
